@@ -83,7 +83,7 @@ img {
     font-size: 22px;
 }
 
-form{
+.first-form{
     background-color: white;
     height: 33%;
     width: 100%;
@@ -102,6 +102,7 @@ form{
 .form{
     display: flex;
     flex-wrap: wrap;
+    height: 80%;
 }
 
 .label-style{
@@ -142,6 +143,61 @@ form{
     background-color: #2a2a6b;
 }
 
-a{
-    color: #2a2a6b;
+@media screen and (max-width:1250px) {
+    .case{
+        width:270px;
+        height: 60px;
+        margin: 0;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .btn{
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        border: 1px solid #2a2a6b;
+        border-radius: 22px;
+        font-size: 22px;
+        height: 60px;
+        width: 205px;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+
+    .content-one{
+        margin-top: 45px;
+        margin-left: 30px;
+        margin-right: 70px;
+        font-size: 22px;
+    }
+
+    img {
+        position: absolute;
+        width: 37.5em;
+        height: 56.25em;
+       
+    }
+
+    .content-two{
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 50px;
+        font-size: 22px;
+    }
+
+    .content-three{
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    /* Version mobile*/
+    
+    body {
+        margin : 0px;
+        padding: 0px;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        overflow-y: visible;
+
+    }
+
 }
