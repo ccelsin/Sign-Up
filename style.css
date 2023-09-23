@@ -15,45 +15,46 @@ body {
 .flex-container{
     display: flex;
     flex-direction: row;
+    background-color: #f5f5f7;
    
 }
 
 .picture{
     position: relative;
-    width: 600px;
-    height: 900px;
+    width: 40vw;
+    height: 100vh;
 }
 
 img {
     position: absolute;
-    width: 600px;
-    height: 900px;
+    width: 40vw;
+    height: 100vh;
    
 }
 
 .logo-bar{
     z-index: 1;
-    margin-top: 100px;
+    margin-top: 10vh;
     background-color: black;
-    height: 15%;
-    width:600px;
+    height: 20vh;
+    width:40vw;
     opacity: 0.45;
 }
 
 .word{
-    padding-top: 21px;
-    padding-left: 270px;
+    padding-top: 3.4vh;
+    padding-left: 19vw;
     font-family: "norse bold";
-    font-size: 95px;
+    font-size: 5.93rem;
     color: white;
     opacity: 1;
 }
 
 .logo{
-    height: 110px;
-    width: 80px;
-    padding-top: 10px;
-    padding-left: 185px;
+    height: 17vh;
+    width: 8vw;
+    padding-top: 1.5vh;
+    padding-left: 11vw;
 }
 
 .sign-page{
@@ -65,27 +66,24 @@ img {
 }
 
 .sentence{
-    height: 30%;
+    height: 35vh;
     width: 100%;
+    padding-bottom: 1vh;
 }
 
 .content-one{
-    margin-top: 70px;
-    margin-left: 60px;
-    margin-right: 70px;
-    font-size: 22px;
+    margin-top: 9vh;
+    margin-left: 4.7vw;
+    font-size: 1.38rem;
+    
+    
 }
 
-.content-two{
-    margin-top: 20px;
-    margin-left: 60px;
-    margin-right: 50px;
-    font-size: 22px;
-}
+
 
 .first-form{
     background-color: white;
-    height: 33%;
+    height: 33vh;
     width: 100%;
     box-sizing: content-box;
     box-shadow:3px 5px 5px rgb(155, 155, 155);
@@ -93,10 +91,10 @@ img {
 }
 
 .content-three{
-    margin-top: 10px;
-    margin-left: 55px;
-    margin-bottom: 10px;
-    font-size: 22px;
+    margin-top: 2vh;
+    margin-left: 3.7vw;
+    margin-bottom: 1.7vh;
+    font-size: 1.5rem;
 }
 
 .form{
@@ -112,16 +110,16 @@ img {
 .div_id{
     border: 1px solid #bdbdc1;
     border-radius: 9px;
-    height: 30px;
-    width: 220px;
+    height: 3.9vh;
+    width: 19vw;
 }
 
 .case{
-    width:270px;
-    height: 60px;
+    width:20vw;
+    height: 2vh;
     margin: 0;
-    margin-left: 55px;
-    margin-bottom: 10px;
+    margin-left: 5vw;
+    margin-bottom: 1.4vh;
 }
 
 .submit{
@@ -136,68 +134,15 @@ img {
     height: 60px;
     width: 205px;
     margin-top: 30px;
-    margin-left: 70px;
+    margin-left: 6vw;
 }
 
 .btn:focus{
     background-color: #2a2a6b;
 }
 
-@media screen and (max-width:1250px) {
-    .case{
-        width:270px;
-        height: 60px;
-        margin: 0;
-        margin-left: 25px;
-        margin-bottom: 10px;
-    }
-
-    .btn{
-        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-        border: 1px solid #2a2a6b;
-        border-radius: 22px;
-        font-size: 22px;
-        height: 60px;
-        width: 205px;
-        margin-top: 30px;
-        margin-left: 25px;
-    }
-
-    .content-one{
-        margin-top: 45px;
-        margin-left: 30px;
-        margin-right: 70px;
-        font-size: 22px;
-    }
-
-    img {
-        position: absolute;
-        width: 37.5em;
-        height: 56.25em;
-       
-    }
-
-    .content-two{
-        margin-top: 20px;
-        margin-left: 30px;
-        margin-right: 50px;
-        font-size: 22px;
-    }
-
-    .content-three{
-        margin-top: 10px;
-        margin-left: 25px;
-        margin-bottom: 10px;
-        font-size: 22px;
-    }
-    /* Version mobile*/
-    
-    body {
-        margin : 0px;
-        padding: 0px;
-        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-        overflow-y: visible;
+ @media screen and (max-width:600px) {
+        
 
     }
 
-}
