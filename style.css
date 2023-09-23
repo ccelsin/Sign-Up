@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face{
+    font-family: "Norse bold";
+    src: url(../font.otf);
+}
+
+body {
+    margin : 0px;
+    padding: 0px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    overflow: hidden;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.picture{
+    position: relative;
+    width: 600px;
+    height: 900px;
+}
+
+img {
+    position: absolute;
+    width: 600px;
+    height: 900px;
+   
+}
+
+.logo-bar{
+    z-index: 1;
+    margin-top: 100px;
+    background-color: black;
+    height: 15%;
+    width:600px;
+    opacity: 0.45;
+}
+
+.word{
+    padding-top: 21px;
+    padding-left: 270px;
+    font-family: "norse bold";
+    font-size: 95px;
+    color: white;
+    opacity: 1;
+}
+
+.logo{
+    height: 110px;
+    width: 80px;
+    padding-top: 10px;
+    padding-left: 185px;
+}
+
+.sign-page{
+    display: flex;
+    background-color: #f5f5f7;
+    height: 800px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.sentence{
+    height: 30%;
+    width: 100%;
+}
+
+.content-one{
+    margin-top: 70px;
+    margin-left: 60px;
+    margin-right: 70px;
+    font-size: 22px;
+}
+
+.content-two{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 50px;
+    font-size: 22px;
+}
+
+form{
+    background-color: white;
+    height: 33%;
+    width: 100%;
+    box-sizing: content-box;
+    box-shadow:3px 5px 5px rgb(155, 155, 155);
+    padding:10px;
+}
+
+.content-three{
+    margin-top: 10px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.label-style{
+    color: gray;
+}
+
+.div_id{
+    border: 1px solid #bdbdc1;
+    border-radius: 9px;
+    height: 30px;
+    width: 220px;
+}
+
+.case{
+    width:270px;
+    height: 60px;
+    margin: 0;
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+
+.submit{
+    height: 37%
+}
+
+.btn{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    border: 1px solid #2a2a6b;
+    border-radius: 22px;
+    font-size: 22px;
+    height: 60px;
+    width: 205px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.btn:focus{
+    background-color: #2a2a6b;
+}
+
+a{
+    color: #2a2a6b;
+}
