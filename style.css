@@ -2,7 +2,7 @@
 
 @font-face{
     font-family: "Norse bold";
-    src: url(font.otf);
+    src: url(../font.otf);
 }
 
 body {
@@ -44,7 +44,7 @@ img {
 .word{
     padding-top: 3.4vh;
     padding-left: 19vw;
-    font-family: "Norse bold";
+    font-family: "norse bold";
     font-size: 5.93rem;
     color: white;
     opacity: 1;
